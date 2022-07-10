@@ -1,0 +1,39 @@
+.skills{
+    /* border: 2px solid red; */
+    width: 100%;
+    background: black;
+    padding-left: 1.5rem;
+    height: 50vh;
+    /* margin: 1px; */
+}
+.skill:hover{
+    background-color: rgb(167, 148, 121);
+    /* color: black; */
+}
+.skill p{
+    padding: 10px 0;
+}
+.skill-container{
+    max-width: 1140px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding: 1rem;
+    /* border: 2px solid pink; */
+}
+.skill{
+    padding: 1rem;
+    border: 2px solid azure;
+    color: azure;
+    text-align: center;
+}
+@media screen and(max-width:740px) {
+    .skill-container{
+        max-width: 90%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    
+    }
+    
+}
